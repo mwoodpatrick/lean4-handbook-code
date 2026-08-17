@@ -1,0 +1,13 @@
+# lake のビルド成果物とキャッシュ。約 6.5GB になるので追跡しない。
+# 取得は lake exe cache get で行う。
+/.lake/
+/build/
+
+# 検証用に一時生成するファイル
+/Probe.lean
+/ProbeVocab.lean
+
+# OS が置くもの
+.DS_Store
+Thumbs.db
+desktop.ini
