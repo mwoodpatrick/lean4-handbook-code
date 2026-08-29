@@ -1,9 +1,12 @@
 name = "handbook"
 version = "0.1.0"
-defaultTargets = ["Handbook"]
+defaultTargets = ["Handbook", "Handbook_EN"]
 
-[[lean_lib]]
+[[lean_lib]]           # Japanese edition
 name = "Handbook"
+
+[[lean_lib]]           # English edition
+name = "Handbook_EN"
 
 [[require]]
 name = "mathlib"
