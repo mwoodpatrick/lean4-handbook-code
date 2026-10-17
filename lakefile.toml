@@ -1,6 +1,6 @@
 name = "handbook"
 version = "0.1.0"
-defaultTargets = ["Handbook", "Handbook_EN"]
+defaultTargets = ["Handbook_EN"]
 
 [[lean_lib]]           # Japanese edition
 name = "Handbook"
